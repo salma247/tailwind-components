@@ -1,4 +1,4 @@
-import Card from "./card/Card";
+import Card from "./components/card/Card";
 
 export default function App() {
   const name = "Ms. Cat";

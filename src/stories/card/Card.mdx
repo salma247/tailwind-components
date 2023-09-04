@@ -1,0 +1,35 @@
+import { Canvas, Meta } from '@storybook/blocks';
+import * as CardStories from './Card.stories.tsx';
+
+<Meta of={CardStories} />
+
+# Card
+
+A card is a flexible and extensible content container. It includes name, title, image, and background color.
+
+## Basic Example
+
+<Canvas of={CardStories.Basic} />
+
+## props
+
+- `name` - The name of the component
+- `title` - The title of the component
+- `image` - The image of the component
+- `backgroundColor` - The background color of the component
+- `textColor` - The text color of the component
+
+## Usage
+
+```jsx
+import { Card } from '@storybook/blocks';
+
+<Card
+  name="Card"
+  title="Card"
+  image="https://source.unsplash.com/random/800x600"
+  backgroundColor="blue"
+  textColor="white"
+/>
+```
+`;

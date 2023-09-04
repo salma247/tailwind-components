@@ -9,13 +9,13 @@ type Props = {
   name: string;
   title: string;
   image: string;
-  bg: string;
+  backgroundColor: string;
   textColor: string;
 };
 
 function Card(props: Props) {
   return (
-    <div className={`flex flex-col items-center justify-center h-96 w-96 bg-${props.bg} rounded-lg`}>
+    <div className={`flex flex-col items-center justify-center h-80 w-80 rounded-xl bg-${props.backgroundColor} shadow-2xl`}>
       <div>
         <img
           src={props.image}

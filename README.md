@@ -1,27 +1,41 @@
-# React + TypeScript + Vite
+# Tailwind-components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## table of contents
 
-Currently, two official plugins are available:
+- [Tailwind-components](#tailwind-components)
+  - [table of contents](#table-of-contents)
+  - [About](#about)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Components](#components)
+    - [Card](#card)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About
 
-## Expanding the ESLint configuration
+This is a collection of components that I made using tailwindcss. I made this because I wanted to learn tailwindcss & storybook. I also wanted to make a collection of components that I can use in my projects.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Installation
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+git clone https://github.com/salma247/tailwind-components.git
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+cd tailwind-components
+
+npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Usage
+
+```bash
+
+npm run storybook
+
+```
+
+## Components
+
+### Card
+
+This is a card component that can be used to display information about a product or a person.
+
+
